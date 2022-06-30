@@ -1,0 +1,289 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+body {
+	background-color: #E5E5E5;
+
+	z-index: 100;
+}
+.workSpace {
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #f8f8f8;
+	font-family: 'Aleo';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	color: #0D606F;
+	z-index: 0;
+}
+.header {
+	/*height: 765px;
+	background-image: url('images/garrett-parker-DlkF4-dbCOU-unsplash 1.png');*/
+	width: 1440px;
+	position: fixed;
+	/*top: -100px;*/
+	z-index: 10;
+}
+.headerBlock {
+	background-color: rgba(242, 120, 92, 0.7);
+	box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.navList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+.navItem {
+	margin-right: 42px;
+}
+.navItem:last-child {
+	margin-right: 0;
+}
+.navLink {
+	text-decoration: none;
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+.login {
+	width: 103px;
+	border: 0;
+}
+.preview {
+	height: 765px;
+	background-image: url('images/garrett-parker-DlkF4-dbCOU-unsplash1.png');
+}
+.previewBlock {
+	position: relative;
+	width: 892px;
+	height: 422px;
+	left: 120px;
+	top: 122px;
+}
+.previewH1 {
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 96px;
+	color: #FFFFFF;
+
+}
+.paragraphPreview {
+	/*position: relative;
+	top: -30px;*/
+	margin-top: 0px;
+	font-family: 'Aleo';
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.planning {
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 16px;
+	margin-top: 46px;
+	width: 892px;
+	height: 95px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	margin-block-end: 0;
+}
+.planningText {
+	background: rgba(255, 255, 255, 0.0);
+	border: 0;
+	width: 560px;
+	height: 22px;
+	font-family: 'Aleo';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #F2785C;
+}
+.buttonPla {
+	width: 228px;
+	height: 59px;
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	background: #0D606F;
+	color: #ffffff;
+	box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+	border: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 32px;
+	margin: 0;
+}
+.button {
+	background: #0D606F;
+	color: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 25px;
+}
+.caption {
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 53px;
+	color: #F2785C;
+	text-align: center;
+}
+.steps {
+	text-align: center;
+}
+.stepsTrip {
+	/*width: 1177px;*/
+	display: flex;
+	justify-content: space-around;
+}
+.trip {
+	text-align: center;
+}
+.trip p {
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0D606F;
+}
+.images {
+	display: flex;
+	position: relative;
+	right: 630px;
+}
+.image {
+	margin: 0px 50px;
+	z-index: 0;
+}
+.rounds {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 24px;
+}
+.round1 {
+	width: 20px;
+	height: 20px;
+	background: rgba(242, 120, 92, 0.5);
+	border-radius: 10px;
+}
+.round1:first-child {
+	margin-left: 680px;
+	margin-right: 10px;
+}
+.round1:last-child {
+	margin-right: 680px;
+	margin-left: 10px;
+}
+.round2 {
+	width: 20px;
+	height: 20px;
+	background: #F2785C;
+	border-radius: 10px;
+}
+.buttonBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.destant {
+	padding: 10px 32px;
+	border: 0;
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+.storiesBackground {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0px 100px 0px 100px;
+	height: 1280px;
+}
+.storiesBlock {
+	background-image: url('images/Rectangle33.png');
+	height: 1330px;
+}
+.storiesPar {
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	margin: 15px 0px 15px 0px;
+}
+.imgStories {
+	margin-right: 40px;
+}
+.storiesPar:first-child {
+	margin-bottom: 35px;
+}
+.storiesPar:last-child {
+	margin-bottom: 35px;
+}
+.buttonStories {
+	padding: 10px 32px;
+	border: 0;
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+.footer {
+	width: 1100px;
+	position: relative;
+	bottom: 60px;
+	left: 455px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.iconFooterIcon {
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+	list-style: none;
+}
+.textFooter {
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+
